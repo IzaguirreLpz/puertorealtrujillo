@@ -1,0 +1,133 @@
+.nav-color {
+    background-color: #667490;
+}
+
+.bg-carrousel{
+    background-color: #367bc3;
+}
+
+.bg-cards{
+    background-color: #38bfa7;
+}
+
+.card-heading{
+    background-color: #525d73;
+    color: white;
+}
+
+.card-title{
+      font-size: 2.5rem;
+}
+
+.centrar-texto-vertical{
+    display: flex;
+    align-items: center;
+}
+
+/* Necessary for full page carousel*/
+html,
+body,
+.view {
+  height: 90vh;
+}
+
+/* Carousel*/
+.carousel,
+.carousel-item,
+.carousel-item.active {
+  height: 100%;
+}
+.carousel-inner {
+  height: 100%;
+}
+.carousel-item:nth-child(1) {
+  background-image: url("playa01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.carousel-item:nth-child(2) {
+  background-image: url("playa02.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.carousel-item:nth-child(3) {
+  background-image: url("playa03.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-item:nth-child(4) {
+  background-image: url("playa04.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-item:nth-child(5) {
+  background-image: url("playa05.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.container {
+  max-width: 80vw;
+}
+
+.card-title{
+text-align: center;
+}
+
+.grid-row{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+  justify-items: center;
+}
+
+
+/* Navigation*/
+  .scrolling-navbar {
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+  }
+  .top-nav-collapse {
+    background-color: #667490;
+  }
+  footer.page-footer {
+    background-color: #667490;
+  }
+  @media only screen and (max-width: 768px) {
+    .navbar {
+      background-color: #667490;
+    }
+  }
+
+  /* @media screen and (max-width:400px){
+    .row-grid{
+      grid-template-columns: 1fr;
+    }
+  } */
+
+  .row-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:50px;
+  }
+
+  @media only screen and (max-width: 500px) {
+
+    .row-grid{
+      grid-template-columns: 1fr;
+    }
+
+    .container {
+    max-width: 95vw;
+    }
+
+    .grid-row{
+      grid-template-columns: 1fr;
+    }
+  }

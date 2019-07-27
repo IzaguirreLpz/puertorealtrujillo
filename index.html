@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta property="og:url"              content="https://atlashome.hn/inmueble/{{id}}" />
+<meta property="og:title"              content="Ingresa a nuestro tour en Puerto Real" />
+<meta property="og:description"        content="Reserva nuestra Hotel de Montaña o de Hotel de Playa" />
+<meta property="og:image"              content="https://izaguirrelpz.github.io/puertorealTours/img/fotos/04.jpg" />
+  <title>Puerto Real HN</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark nav-color">
+        <a class="navbar-brand" href="index.html"> <img src="img\LOGO PUERTO REAL.png" width="70px"> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                   <a class="nav-link waves-effect waves-light" href="/">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link waves-effect waves-light" href="#idTiempoCompartido">Tiempo Compartido</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link waves-effect waves-light" href="#idPrecios">Precios</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Proyectos</a>
+                    <div class="dropdown-menu dropdown-info" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item waves-effect waves-light" href="rio.html">Puerto Real - Hotel De Montaña</a>
+                        <a class="dropdown-item waves-effect waves-light" href="playa.html">Puerto Real - Hotel De Playa</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link waves-effect waves-light" href="#idcontactanos">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+  <!-- Start your project here-->
+
+
+  <!--Carousel Wrapper-->
+<div id="carousel-example-1" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+
+<!--Indicators-->
+<ol class="carousel-indicators">
+<li data-target="#carousel-example-1" data-slide-to="0" class="active"></li>
+<li data-target="#carousel-example-1" data-slide-to="1"></li>
+<li data-target="#carousel-example-1" data-slide-to="2"></li>
+</ol>
+<!--/.Indicators-->
+
+<!--Slides-->
+<div class="carousel-inner" role="listbox">
+
+<!--First slide-->
+<div class="carousel-item active">
+<!--Mask-->
+<div class="view">
+  <div class="full-bg-img flex-center white-text">
+    <ul class="col-md-12 list-unstyled">
+             <li>
+               <h1 class="font-weight-bold text-uppercase">Puerto Real</h1>
+             </li>
+             <li>
+               <p class="font-weight-bold text-uppercase py-4">Conoce Mas en nuestros videos</p>
+             </li>
+             <li>
+               <button id="modalActivate" type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModalPreview">
+                 Ver Video
+               </button>
+             </li>
+           </ul>
+  </div>
+</div>
+<!--/.Mask-->
+</div>
+<!--/.First slide-->
+
+<!--Second slide -->
+<div class="carousel-item">
+<!--Mask-->
+<div class="view">
+  <div class="full-bg-img flex-center white-text">
+    <ul class="col-md-12 list-unstyled">
+             <li>
+               <h1 class="font-weight-bold text-uppercase">Puerto Real</h1>
+             </li>
+             <li>
+               <p class="font-weight-bold text-uppercase py-4">Conoce Mas en nuestros videos</p>
+             </li>
+             <li>
+               <button id="modalActivate" type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModalPreview">
+                 Ver Video
+               </button>
+             </li>
+           </ul>
+  </div>
+</div>
+<!--/.Mask-->
+</div>
+<!--/.Second slide -->
+
+
+<!--Second slide -->
+<div class="carousel-item">
+<!--Mask-->
+<div class="view">
+  <div class="full-bg-img flex-center white-text">
+    <ul class="col-md-12 list-unstyled">
+             <li>
+               <h1 class="font-weight-bold text-uppercase">Puerto Real</h1>
+             </li>
+             <li>
+               <p class="font-weight-bold text-uppercase py-4">Conoce Mas en nuestros videos</p>
+             </li>
+             <li>
+               <button id="modalActivate" type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModalPreview">
+                 Ver Video
+               </button>
+             </li>
+           </ul>
+  </div>
+</div>
+<!--/.Mask-->
+</div>
+<!--/.Second slide -->
+
+</div>
+<!--/.Slides-->
+
+<!--Controls-->
+<a class="carousel-control-prev" href="#carousel-example-1" role="button" data-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" href="#carousel-example-1" role="button" data-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="sr-only">Next</span>
+</a>
+<!--/.Controls-->
+</div>
+<!--/.Carousel Wrapper-->
+
+
+
+
+
+
+
+        <div class="container ">
+    <div class="row">
+      <div class="col-12">
+          <h1 style="text-align: center; margin: 30px">Nuestos Proyectos</h1>
+      </div>
+    </div>
+
+    <div class="grid-row">
+        <div class="col-12">
+            <!-- Card -->
+            <a href="playa.html">
+              <div class="card">
+                  <!-- Card image -->
+                  <div class="overlay">
+                    <img class="card-img-top" src="img\fotos\playa\06.jpg" alt="Card image cap">
+                    <a href="#!">
+                      <div class="mask rgba-white-slight"></div>
+                    </a>
+                  </div>
+
+                  <!-- Card content -->
+                  <div class="card-body">
+
+                    <!-- Title -->
+                    <h4 class="card-title">Puerto Real <br> Hotel de Playa</h4>
+
+                  </div>
+                </a>
+
+  </div>
+  <!-- Card -->
+        </div>
+        <div class="col-12">
+             <!-- Card -->
+             <div class="card">
+               <a href="rio.html">
+                <!-- Card image -->
+                <div class="overlay">
+                  <img class="card-img-top" src="img\fotos\rio\08.jpg" alt="Card image cap">
+                  <a href="#!">
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+
+                <!-- Card content -->
+                <div class="card-body">
+
+                  <!-- Title -->
+                  <h4 class="card-title">Puerto Real <br> Proyecto De Rio</h4>
+                </div>
+              </a>
+
+</div>
+<!-- Card -->
+        </div>
+      </div>
+
+      <div class="row" id="idTiempoCompartido">
+        <div class="col-12">
+            <h1 style="text-align: center; margin: 30px">Tiempo Compartido</h1>
+        </div>
+      </div>
+
+
+      	<div class="row">
+      		<div class="col-md-12">
+      			<div class="row">
+      				<div class="col-md-6 text-center">
+                <figure>
+                  <img alt="Bootstrap Image Preview" src="img\fotos\timeshare.jpg" width="500px" class="rounded-circle img-fluid" />
+                </figure>
+      				</div>
+      				<div class="col-md-6">
+      					<p>
+                  <strong>
+                  <h3>¿Que es tiempo compartido?</h3>
+                </strong>
+                <br>
+                Consiste en la prestación del derecho de uso y goce de una propiedad,
+                por lo general algún tipo de alojamiento vacacional, durante un periodo
+                determinado en el contrato.
+                <br>
+                <br>
+                <strong>
+                <h3>
+                  ¿Como funcional el tiempo compartido?
+                </h3>
+                </strong>
+                <br>
+                Un lapso de 14 noches anuales, dividibles en tres segmentos que le
+                permiten al socio decidir cuales son las temporadas del año en que desee
+                vacacionar, tomando al mes de enero como referente para hacer su
+                reservación o en su defecto 1 mes antes de la fecha a reservar.
+                <br><br>
+                <strong>
+                  <h3>
+                    Ventajas
+                  </h3>
+                </strong>
+                <br>
+                          La mayor ventaja de ser titular de un alojamiento de TIEMPO COMPARTIDO es
+        la posibilidad de tener “Una Casa, Lejos de Casa” en donde tener
+        garantizadas las vacaciones, pero con un riesgo económico mucho menor del
+        que pueda conllevar el ser propietario de una vivienda en propiedad absoluta
+        y el mantenimiento de la misma.
+
+        Si usted no hace uso de sus días, puede alquilar su tiempo.
+
+        No mantenerse sujeto a la variación de tarifas durante temporadas altas o
+        tarifas caprichosas dependiendo de eventualidades.
+                        </p>
+      				</div>
+      			</div>
+      		</div>
+      	</div>
+
+
+        <div class="row" id="idPrecios">
+          <div class="col-12">
+              <h1 style="text-align: center; margin: 30px">Precios</h1>
+          </div>
+        </div>
+
+
+        <div class="row-grid">
+
+                <!-- Card -->
+        <div class="card">
+          <!-- Card content -->
+          <div class="card-body">
+
+            <!-- Title -->
+            <!-- Text -->
+            <ul>
+              <li>Con una tarifa de $7000.00 la membrecía por espacio de 4 años más un plus a los primeros 100 socios los cuales tendrán 1 año de cortesía y una segunda opción por 2 años por$3750.00 los cuales no contaran con el plus antes mencionado.</li>
+              <br> <li>El cliente podrá usarlo personalmente o en su efecto usufructuar de él vendiendo el tracto a una tercera persona esto después de hacer la debida reservación.</li>
+              <br> <li>Todas las reservaciones se harán en los primero 22 días del año o de lo contrario con un mes como mínimo ante de la fecha requerida.</li>
+              <br> <li>Esta membrecía te da derecho a 14 noches anuales que se pueden dividir en tres tractos en los que se debe destacar que solo tienen derecho a uno de ellos en las temporadas altas de; semana santa, semana morazanica (octubre) y carnaval (mayo) o si lo requiere la totalidad de los 14 noches y la opción de estar en los dos hoteles a su preferencia.</li>
+              <br> <li>La ocupación es para 6 personas divididas en tres camas una King y dos matrimoniales  además de un sofá cama en la sala de la cabaña. </li>
+            </ul>
+          </div>
+
+        </div>
+        <!-- Card -->
+
+
+        <!-- Card -->
+        <div class="card">
+
+        <!-- Card content -->
+        <div class="card-body">
+        <!-- Text -->
+        <ul>
+          <li>El máximo de personas es de 8 por villa en caso de exceder se cobrara un adicional de $50 por persona.</li>
+          <br> <li>Las villas serán acondicionadas para preparar alimentos ligeros y no es apta para cocinar, lo cual puede ser objeto de amonestación para el cliente.</li>
+          <br> <li>En caso de no poder ser usado en su totalidad por el cliente este puede hacer concesión a un familiar o amigo debidamente autorizado con un documento firmado igualmente anticipando un mes la reservación.</li>
+          <br> <li>Cada cliente estará debidamente foliado y debe de aparecer en el contrato, que esto le da un plus en caso de que alguna fecha este llena su habitación, de tener una situación de convergencia en fechas será tomado en cuenta el foliado del cliente y será brindada al más antiguo.</li>
+          <br> <li>Se cancelará anualmente una cuota de mantenimiento de $150.00 por cabaña que se dará el mes de enero para hacerlo.</li>
+        </ul>
+        </div>
+
+        </div>
+        <!-- Card -->
+
+
+
+        <!-- Card -->
+        <div class="card">
+
+        <!-- Card content -->
+        <div class="card-body">
+
+        <!-- Title -->
+        <ul>
+          <li>No se permite fumar dentro de las cabañas de ser así tendría el cargo por desinfección de la misma que es de $100.</li>
+          <br> <li>La membrecía les dará descuentos en eventos especiales hasta de 30% además de un 10% en el salón de actividades y un 5% en el consumo en el restaurante además de un tour de cortesía en su tercera visita anual a elegir</li>
+          <br> <li>El proyecto se tiene planeado para verano 2020 empiece operaciones.</li>
+          <br> <li>Bajo estas condiciones el cliente tiene la posibilidad de planear sus vacaciones en cualquiera de las dos propiedades según tenga a bien, al existir la posibilidad de hacerlo en 3 faces puede elegir en diferentes o en el mismo hotel su estadía.</li>
+          <br> <li>Su tarifa no subirá de precio en los 4 años que dure el contrato, no tendrá molestos incrementos por temporada y de esa forma los 4 años de su contrato contara con una tarifa fija y devaluada en comparación con el cliente normal que llegue como camínate al hotel.</li>
+        </ul>
+        </div>
+
+        </div>
+        <!-- Card -->
+
+
+
+        </div>
+
+
+<!-- Section: Contact v.1 -->
+<section class="my-5">
+
+  <!-- Section heading -->
+  <div class="row">
+    <div class="col-12">
+        <h1 style="text-align: center; margin: 30px">Contactanos</h1>
+    </div>
+  </div>
+  <!-- Section description -->
+
+  <!-- Grid row -->
+  <div class="row" id="idcontactanos">
+
+    <!-- Grid column -->
+    <div class="col-lg-5 mb-lg-0 mb-4">
+
+      <!-- Form with header -->
+      <div class="card">
+        <div class="card-body">
+          <!-- Header -->
+          <div class="form-header accent-1">
+            <h3 class="mt-2" style="color:#9E9E9E"><i class="fas fa-envelope"></i> Escribenos:</h3>
+          </div>
+          <!-- Body -->
+          <div class="md-form">
+            <i class="fas fa-user prefix grey-text"></i>
+            <input type="text" id="form-name" class="form-control">
+            <label for="form-name">Tu Nombre</label>
+          </div>
+          <div class="md-form">
+            <i class="fas fa-envelope prefix grey-text"></i>
+            <input type="text" id="form-email" class="form-control">
+            <label for="form-email">Tu Correo</label>
+          </div>
+          <div class="md-form">
+            <i class="fas fa-tag prefix grey-text"></i>
+            <input type="text" id="form-Subject" class="form-control">
+            <label for="form-Subject">Asunto</label>
+          </div>
+          <div class="md-form">
+            <i class="fas fa-pencil-alt prefix grey-text"></i>
+            <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
+            <label for="form-text">Escribe Tu Mensaje</label>
+          </div>
+          <div class="text-center">
+            <button class="btn btn-light-blue">Enviar</button>
+          </div>
+        </div>
+      </div>
+      <!-- Form with header -->
+
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="col-lg-7">
+
+      <!--Google map-->
+      <div id="map-container-section" class="z-depth-1-half map-container-section mb-4" style="height: 400px">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3835.6675548004114!2d-85.90796668514268!3d15.978728188936842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTXCsDU4JzQzLjQiTiA4NcKwNTQnMjAuOCJX!5e0!3m2!1ses!2shn!4v1564161534823!5m2!1ses!2shn" frameborder="0"
+          style="border:0;height: 400px;width:100%" allowfullscreen></iframe>
+      </div>
+      <!-- Buttons-->
+      <div class="row text-center">
+        <div class="col-md-4">
+          <a class="btn-floating accent-1">
+            <i class="fas fa-map-marker-alt"></i>
+          </a>
+          <p>Trujillo, Colon</p>
+          <p class="mb-md-0">Honduras</p>
+        </div>
+        <div class="col-md-4">
+          <a class="btn-floating accent-1">
+            <i class="fas fa-phone"></i>
+          </a>
+          <p>+(504) 9978-4495</p>
+          <p class="mb-md-0">Lunes - Viernes, 8:00 - 17:00</p>
+        </div>
+        <div class="col-md-4">
+          <a class="btn-floating accent-1">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <p class="mb-0">hotelpuertorealhn@gmail.com</p>
+        </div>
+      </div>
+
+    </div>
+    <!-- Grid column -->
+
+  </div>
+  <!-- Grid row -->
+
+</section>
+<!-- Section: Contact v.1 -->
+
+
+  </div>
+
+
+  <!-- Modal -->
+  <div class="modal fade right" id="exampleModalPreview" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalPreviewLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <iframe width="100%" height="500" src="https://www.youtube.com/embed/erOrBmKc8YA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+
+
+
+
+
+  <!-- Footer -->
+<footer style="margin: 30px 0 0 0px" class="page-footer font-small nav-color  pt-4">
+
+    <!-- Footer Elements -->
+    <div class="container">
+
+      <!-- Social buttons -->
+      <ul class="list-unstyled list-inline text-center">
+        <li class="list-inline-item">
+          <a class="btn-floating btn-fb mx-1">
+            <i class="fab fa-facebook-f"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-tw mx-1">
+            <i class="fab fa-twitter"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-li mx-1">
+            <i class="fab fa-linkedin-in"> </i>
+          </a>
+        </li>
+      </ul>
+      <!-- Social buttons -->
+
+    </div>
+    <!-- Footer Elements -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2019 Copyright: Puerto Real</div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+  <!-- Start your project here-->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+</body>
+
+</html>
